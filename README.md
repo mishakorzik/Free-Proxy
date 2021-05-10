@@ -6,7 +6,7 @@
 
 * `pkg install git`
 * `git clone https://github.com/mishakorzik/Free-Proxy`
-* `cd Proxy-Search`
+* `cd Free-Proxy`
 * `bash Setup.sh`
 
 #### Everything is ready! Now we are waiting for everything to download!
@@ -17,7 +17,7 @@
 
 * `pkg install git`
 * `git clone https://github.com/mishakorzik/Free-Proxy` 
-* `cd Proxy-Search`
+* `cd Free-Proxy`
 * `bash SetupLinux.sh`
 
 ---
@@ -25,7 +25,7 @@
 
 #### Enter a command to start the proxy.
 
-* `python2 Proxy-Search.py`
+* `python2 Free-Proxy.py`
 
 #### Everything is ready!  now the program will give you all the proxy servers.
 ---
