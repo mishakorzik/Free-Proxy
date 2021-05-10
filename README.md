@@ -5,7 +5,7 @@
 ## Installing for termux
 
 * `pkg install git`
-* `git clone https://github.com/mishakorzik/Proxy-Search`
+* `git clone https://github.com/mishakorzik/Free-Proxy`
 * `cd Proxy-Search`
 * `bash Setup.sh`
 
@@ -16,7 +16,7 @@
 ## Installing for linux
 
 * `pkg install git`
-* `git clone https://github.com/mishakorzik/Proxy-Search` 
+* `git clone https://github.com/mishakorzik/Free-Proxy` 
 * `cd Proxy-Search`
 * `bash SetupLinux.sh`
 
