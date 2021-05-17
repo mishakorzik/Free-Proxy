@@ -69,7 +69,7 @@ for row in sosBlackhats.find_all('tr'):
     except:
         pass
 
-print" "+Red+" Proxy succesfull! By mishakorzhik ⋙" 
+print" "+Red+" Proxy succesfull! Tranks for download ⋙" 
 
     
 
