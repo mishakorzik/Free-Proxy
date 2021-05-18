@@ -39,7 +39,7 @@
 <br>
 <p align="center">
 <img width="49.0%" src="IMG_20210510_150717.jpg"/> 
-<img width="49.0%" src="IMG_20210510_150700.jpg"/>
+<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/Free-Proxy/main/IMG_20210510_150700.jpg"/>
 </p>
 
 
