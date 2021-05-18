@@ -54,7 +54,7 @@ print""+Blue+""
 import requests
 from bs4 import BeautifulSoup
 
-proxyDomain = "https://free-proxy-list.net" 
+proxyDomain = "http://free-proxy.cz/ru/" 
 
 system = requests.get(proxyDomain)
 
@@ -72,7 +72,7 @@ for row in sosBlackhats.find_all('tr'):
 print" "+Red+" Proxy succesfull! Tranks for download ⋙" 
 
     
-
+proxyDomain = "https://free-proxy-list.net
 
 
 
