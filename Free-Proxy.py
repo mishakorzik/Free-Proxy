@@ -54,7 +54,7 @@ print""+Blue+""
 import requests
 from bs4 import BeautifulSoup
 
-proxyDomain = "http://free-proxy.cz/ru/" 
+proxyDomain = "https://free-proxy-list.net" 
 
 system = requests.get(proxyDomain)
 
@@ -66,13 +66,17 @@ for row in sosBlackhats.find_all('tr'):
     columns = row.find_all('td')
     try:
         print "%s:%s\t%-20s\t%-10s"  % (columns[0].get_text(),columns[1].get_text(),columns[3].get_text(),columns[4].get_text())
+        print " "+Blue+"Additional server proxies"
+        print " "+Blue+"51.81.31.62   54860   SOCKS5  Francia  Very anonymous"
+        print " "+Blue+"46.101.130.118	8080    HTTPS	Germania   Transparent"
+        print " "+Blue+"23.251.138.105	8080	HTTPS	california   amonymous"
     except:
         pass
 
 print" "+Red+" Proxy succesfull! Tranks for download ⋙" 
 
     
-proxyDomain = "https://free-proxy-list.net"
+
 
 
 
