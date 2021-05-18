@@ -27,6 +27,11 @@
 
 * `python2 Free-Proxy.py`
 
+---
+
+#### view utility updates and how the utility was updated.
+#### <a href="src/UPGRADE.md">View utility updates</a>
+
 #### Everything is ready!  now the program will give you all the proxy servers.
 ---
 ## Screenshot
