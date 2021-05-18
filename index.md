@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Free-Proxy
 
-You can use the [editor on GitHub](https://github.com/mishakorzik/Free-Proxy_Termux/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+#### Hi, you can download the proxy utility here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+## Installing for termux
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* `pkg install git`
+* `git clone https://github.com/mishakorzik/Free-Proxy`
+* `cd Free-Proxy`
+* `bash Setup.sh`
 
-```markdown
-Syntax highlighted code block
+#### Everything is ready! Now we are waiting for everything to download!
+ * `succes`
 
-# Header 1
-## Header 2
-### Header 3
+---
+## Installing for linux
 
-- Bulleted
-- List
+* `pkg install git`
+* `git clone https://github.com/mishakorzik/Free-Proxy` 
+* `cd Free-Proxy`
+* `bash SetupLinux.sh`
 
-1. Numbered
-2. List
+---
+## Start Proxy Termux and Linux
 
-**Bold** and _Italic_ and `Code` text
+#### Enter a command to start the proxy.
 
-[Link](url) and ![Image](src)
-```
+* `python2 Free-Proxy.py`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Everything is ready!  now the program will give you all the proxy servers.
+---
+## Screenshot
 
-### Jekyll Themes
+#### here you can see a screenshot of the proxy
+<br>
+<p align="center">
+<img width="49.0%" src="IMG_20210510_150717.jpg"/> 
+<img width="49.0%" src="IMG_20210510_150700.jpg"/>
+</p>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mishakorzik/Free-Proxy_Termux/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+###### By mishakorzhik: Report bug: misakorzik528@gmail.com
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
