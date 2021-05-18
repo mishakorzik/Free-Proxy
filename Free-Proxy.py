@@ -67,9 +67,14 @@ for row in sosBlackhats.find_all('tr'):
     try:
         print "%s:%s\t%-20s\t%-10s"  % (columns[0].get_text(),columns[1].get_text(),columns[3].get_text(),columns[4].get_text())
         print " "+Blue+"Additional server proxies"
-        print " "+Blue+"51.81.31.62   54860   SOCKS5  Francia  Very anonymous"
-        print " "+Blue+"46.101.130.118	8080    HTTPS	Germania   Transparent"
-        print " "+Blue+"23.251.138.105	8080	HTTPS	california   amonymous"
+        print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    Very anonymous"
+        print " "+Blue+"46.101.130.118:8080   HTTPS   Germania   Transparent"
+        print " "+Blue+"23.251.138.105:8080   HTTPS   california   Anonymous"
+        print " "+Blue+"129.146.180.91:3128   HTTP     california    Unknown"
+        print " "+Blue+"221.139.43.196:80     HTTP	Unknown    Anonymous"
+        print " "+Blue+"217.79.181.109:443   HTTPS    Germania   Very anonymous"
+        print " "+Blue+"85.15.152.39:3128   HTTPS    Russian   Very anonymous"
+        print " "+Blue+"47.116.76.219:80    HTTP     Canada   Very anonymous"
     except:
         pass
 
