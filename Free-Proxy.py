@@ -73,8 +73,11 @@ for row in sosBlackhats.find_all('tr'):
         print " "+Blue+"129.146.180.91:3128   HTTP     california    Unknown"
         print " "+Blue+"221.139.43.196:80     HTTP	Unknown    Anonymous"
         print " "+Blue+"217.79.181.109:443   HTTPS    Germania   Very anonymous"
+        print " "+Blue+"91.109.149.204:8080   HTTP    Kaliningrad   Elite"
         print " "+Blue+"85.15.152.39:3128   HTTPS    Russian   Very anonymous"
         print " "+Blue+"47.116.76.219:80    HTTP     Canada   Very anonymous"
+        print " "+Blue+"94.26.193.137:8080   HTTP   St. Petersburg  Transparent"
+        print " "+Blue+"194.67.78.220:80    HTTP     Moscow    Elite"
     except:
         pass
 
