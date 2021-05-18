@@ -1,5 +1,5 @@
----
-### version 1.2
+----
+### verison 1.2
 
 * `logo: The logo has been changed`
 * `Proxy: added 22 new proxies`
@@ -15,4 +15,7 @@
 * `Thank you for viewing`
 
 #### Succesfull updated!
+
+
+### Report bugs
 ###### by mishakorzhik: report bug: misakorzik528@gmail.com
