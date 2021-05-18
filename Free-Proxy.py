@@ -66,6 +66,9 @@ for row in sosBlackhats.find_all('tr'):
     columns = row.find_all('td')
     try:
         print "%s:%s\t%-20s\t%-10s"  % (columns[0].get_text(),columns[1].get_text(),columns[3].get_text(),columns[4].get_text())
+    except:
+        pass
+
         print " "+Blue+"Additional server proxies"
         print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
         print " "+Blue+"46.101.130.118:8080   HTTPS   Germania   Transparent"
@@ -87,8 +90,6 @@ for row in sosBlackhats.find_all('tr'):
         print " "+Blue+"13.57.207.226:80   Unknown   America   Unknown"
         print " "+Blue+"198.50.137.181:80  HTTPS    Canada    Unknown"
         print " "+Blue+"183.88.226.50:8080  HTTPS   Thailand   hing anonymous"
-    except:
-        pass
 
 print" "+Red+" Proxy succesfull! Tranks for download ⋙" 
 
