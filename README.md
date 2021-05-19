@@ -1,5 +1,6 @@
 # Free-Proxy
 #### Hi, you can download the proxy utility here.
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)<br/><br/>
 
 ---
 ## Installing for termux
