@@ -15,9 +15,15 @@ echo Please wait be patient.
 sleep 1
 pip2 install requests
 pip2 install bs4
-chmod +x Free-Proxy
 sleep 1
 echo succesfull installed for linux!
 sleep 1 
-toilet -F gay Done
-echo Run command: python2 Free-Proxy.py
+echo ██████╗░░█████╗░███╗░░██╗███████╗
+echo ██╔══██╗██╔══██╗████╗░██║██╔════╝
+echo ██║░░██║██║░░██║██╔██╗██║█████╗░░
+echo ██║░░██║██║░░██║██║╚████║██╔══╝░░
+echo ██████╔╝╚█████╔╝██║░╚███║███████╗
+echo ╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
+echo Developer: mishakorzhik
+echo Update on: 20 05 2021
+echo Run command: bash FreeProxy.sh
