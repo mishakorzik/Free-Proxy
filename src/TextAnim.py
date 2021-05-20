@@ -11,14 +11,14 @@ def animate():
             break
         sys.stdout.write('\r ' + c)
         sys.stdout.flush()
-        time.sleep(0.15)
+        time.sleep(0.1)
     sys.stdout.write('')
 
 t = threading.Thread(target=animate)
 t.start()
 
  
-time.sleep(3)
+time.sleep(1)
 done = True
 
 print("")
