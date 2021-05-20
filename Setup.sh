@@ -29,4 +29,4 @@ echo ██████╔╝╚█████╔╝██║░╚███║
 echo ╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
 echo Developer: mishakorzhik
 echo Update on: 17 05 2021
-echo Run command: python2 Free-Proxy.py
+echo Run command: bash FreeProxy.sh
