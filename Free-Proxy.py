@@ -68,16 +68,26 @@ for row in sosBlackhats.find_all('tr'):
         print "%s:%s\t%-20s\t%-10s"  % (columns[0].get_text(),columns[1].get_text(),columns[3].get_text(),columns[4].get_text())
     except:
         pass
-
+        
         print " "+Blue+"Additional server proxies"
+        print " "+Blue+"139.59.112.102:80  Unknown  Singapore   Transparent"
         print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
         print " "+Blue+"46.101.130.118:8080   HTTPS   Germania   Transparent"
         print " "+Blue+"23.251.138.105:8080   HTTPS   california   Anonymous"
+        print " "+Blue+"147.30.232.186:80    Unknown   Kazakhstan    Elite"
         print " "+Blue+"129.146.180.91:3128   HTTP     california    Unknown"
         print " "+Blue+"221.139.43.196:80     HTTP	Unknown    Anonymous"
         print " "+Blue+"217.79.181.109:443   HTTPS    Germania   hing anonymous"
         print " "+Blue+"91.109.149.204:8080   HTTP    Kaliningrad   Elite"
+        print " "+Blue+"109.161.60.102:8080  Unknown    Russia      Anonymous"
+        print " "+Blue+"3.211.17.212:80     HTTP      country:US   transparent"
+        print " "+Blue+"3.211.65.185:80    HTTP     country:US  hing anonymous"
         print " "+Blue+"85.15.152.39:3128   HTTPS    Russian   hing anonymous"
+        print " "+Blue+"104.248.63.15:30588  Unknown   Unknown   Elite"
+        print " "+Blue+"104.248.63.18:30588   HTTPS   Unknown   Anonymous"
+        print " "+Blue+"3.225.148.200:80      HTTP    country:US  Transparent"
+        print " "+Blue+"104.248.63.17:30588   Unknown   Unknown   Unknown"
+        print " "+Blue+"104.248.63.49:30588  HTTP    Unknown    Anonymous"
         print " "+Blue+"47.116.76.219:80    HTTP     Canada   hing anonymous"
         print " "+Blue+"94.26.193.137:8080   HTTP   St. Petersburg  Transparent"
         print " "+Blue+"194.67.78.220:80    HTTP    Moscow    Elite"
@@ -89,7 +99,22 @@ for row in sosBlackhats.find_all('tr'):
         print " "+Blue+"122.138.168.118:80  Unknown   China     Unknown"
         print " "+Blue+"13.57.207.226:80   Unknown   America   Unknown"
         print " "+Blue+"198.50.137.181:80  HTTPS    Canada    Unknown"
-        print " "+Blue+"183.88.226.50:8080  HTTPS   Thailand   hing anonymous"
+        print " "+Blue+"183.88.226.50:8080  HTTPS   Thailand  hing anonymous"
+        print " "+Blue+"hing _anonymous proxies.
+        print " "+Blue+"type: http, country: CA, 142.44.136.219:32769, high_anonymous"
+        print " "+Blue+"type: http, country: US, 168.169.96.17:8080, anonymous"
+        print " "+Blue+"type: http, country: FR, 51.222.197.146:32769, high_anonymous"
+        print " "+Blue+"type: http, country: FR, 51.222.220.245:32769, high_anonymous"
+        print " "+Blue+" type: http, country: MX, 169.57.1.85:80, high_anonymous"
+        print " "+Blue+"type: http, country: MX, 169.57.1.84:80, high_anonymous"
+        print " "+Blue+"type: http, country: MX, 169.57.1.84:8123, high_anonymous"
+        print " "+Blue+"type: http, country: MX, 169.57.1.85:8123, high_anonymous"
+        print " "+Blue+"type: http, country: US, 49.51.232.203:80, high_anonymous"
+        print " "+Blue+"type: https, country: CA, 142.44.136.219:32769, high_anonymous"
+        print " "+Blue+"type: http, country: FR, 159.8.114.37:8123, high_anonymous"
+        print " "+Blue+"type: http, country: FR, 159.8.114.34:8123, high_anonymous"
+        print " "+Blue+"type: http, country: NL, 52.178.32.225:80, transparent"
+        print " "+Blue+"type: http, country: DE, 78.46.8.204:80, transparent"
 
 print" "+Red+" Proxy succesfull! Tranks for download ⋙" 
 
