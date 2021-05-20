@@ -28,7 +28,7 @@
 
 #### Enter a command to start the proxy.
 
-* `bash FreeProxy.sh
+* `bash FreeProxy.sh`
 
 #### Everything is ready!  now the program will give you all the proxy servers.
 ---
