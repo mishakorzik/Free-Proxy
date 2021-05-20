@@ -18,5 +18,5 @@ t = threading.Thread(target=animate)
 t.start()
 
  
-time.sleep(3)
+time.sleep(4)
 done = True
