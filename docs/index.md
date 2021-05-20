@@ -31,6 +31,11 @@
 * `bash FreeProxy.sh`
 
 #### Everything is ready!  now the program will give you all the proxy servers.
+----
+#### command for auto update tool.
+
+* `bash Update.sh`
+
 ---
 ## Screenshot
 
