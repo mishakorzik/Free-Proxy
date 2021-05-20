@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 
 
+bash StartEnter.sh
+sleep 6
+
 Green="\033[1;33m"
 Blue="\033[1;34m"
 Grey="\033[1;30m"
