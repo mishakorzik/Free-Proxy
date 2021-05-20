@@ -8,5 +8,4 @@ echo "╰╯╱╱╰╯╰━━┻━━┻━━╯╰━━━┻╯╰┻�
 read a1
 clear
 sleep 1
-python3 Logo.py
-python3 menu.py
+python3 Free-Proxy.py
