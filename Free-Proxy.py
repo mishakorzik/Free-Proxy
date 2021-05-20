@@ -100,7 +100,7 @@ for row in sosBlackhats.find_all('tr'):
         print " "+Blue+"13.57.207.226:80   Unknown   America   Unknown"
         print " "+Blue+"198.50.137.181:80  HTTPS    Canada    Unknown"
         print " "+Blue+"183.88.226.50:8080  HTTPS   Thailand  hing anonymous"
-        print " "+Blue+"hing _anonymous proxies.
+        print " "+Blue+"hing _anonymous proxies."
         print " "+Blue+"type: http, country: CA, 142.44.136.219:32769, high_anonymous"
         print " "+Blue+"type: http, country: US, 168.169.96.17:8080, anonymous"
         print " "+Blue+"type: http, country: FR, 51.222.197.146:32769, high_anonymous"
