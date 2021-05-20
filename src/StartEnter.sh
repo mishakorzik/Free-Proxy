@@ -8,5 +8,5 @@ echo "╰╯╱╱╰╯╰━━┻━━┻━━╯╰━━━┻╯╰┻�
 read a1
 clear
 sleep 1
-python2 Logo.py
+python3 Logo.py
 python3 menu.py
