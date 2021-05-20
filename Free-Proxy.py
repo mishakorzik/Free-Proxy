@@ -105,7 +105,7 @@ for row in sosBlackhats.find_all('tr'):
         print " "+Blue+"type: http, country: US, 168.169.96.17:8080, anonymous"
         print " "+Blue+"type: http, country: FR, 51.222.197.146:32769, high_anonymous"
         print " "+Blue+"type: http, country: FR, 51.222.220.245:32769, high_anonymous"
-        print " "+Blue+" type: http, country: MX, 169.57.1.85:80, high_anonymous"
+        print " "+Blue+"type: http, country: MX, 169.57.1.85:80, high_anonymous"
         print " "+Blue+"type: http, country: MX, 169.57.1.84:80, high_anonymous"
         print " "+Blue+"type: http, country: MX, 169.57.1.84:8123, high_anonymous"
         print " "+Blue+"type: http, country: MX, 169.57.1.85:8123, high_anonymous"
