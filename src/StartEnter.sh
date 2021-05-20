@@ -5,7 +5,8 @@ echo "┃╭━━┫╭┫┃━┫━━┫━━┫┃╭━━┫╭╮┫�
 echo "┃┃╱╱┃┃┃┃━╋━━┣━━┃┃╰━━┫┃┃┃╰┫┃━┫┃╱╱╱┃┃┃╰╯┃┃╰━╯┃┃╰┫╭╮┃┃┃╰╮"
 echo "╰╯╱╱╰╯╰━━┻━━┻━━╯╰━━━┻╯╰┻━┻━━┻╯╱╱╱╰╯╰━━╯╰━━━╯╰━┻╯╰┻╯╰━╯"
 read a1
+clear
 python3 TextAnim.py
-sleep 0.2
+sleep 1
 clear
 python2 Free-Proxy.py
