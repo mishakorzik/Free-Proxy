@@ -8,4 +8,4 @@ echo "╰╯╱╱╰╯╰━━┻━━┻━━╯╰━━━┻╯╰┻�
 read a1
 clear
 sleep 1
-python3 Free-Proxy.py
+python2 Free-Proxy.py
