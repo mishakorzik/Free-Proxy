@@ -26,7 +26,7 @@
 
 #### Enter a command to start the proxy.
 
-* `python2 Free-Proxy.py`
+* `bash FreeProxy.sh`
 
 ---
 
