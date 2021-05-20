@@ -30,6 +30,10 @@
 
 ---
 
+#### command for auto update tool.
+
+* `bash AutoUpdate.sh
+
 #### view utility updates and how the utility was updated.
 #### <a href="src/UPGRADE.md">View utility updates</a>
 
