@@ -1,3 +1,12 @@
+-----
+### verison 1.3
+
+* `Proxy: added new proxy servers`
+* `system: New system on Free Proxy`
+* `Thank you for viewing`
+
+#### Succesfull updated!
+
 ----
 ### verison 1.2
 
