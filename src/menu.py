@@ -84,6 +84,7 @@ print("          \033[1;32;40m[3] \033[1;36;40mUK PROXY")
 print("          \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
 print("          \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
 print("          \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
+print("          \033[1;32;40m[7] \033[1;36;40mExit utility")
 
 op=int(raw_input("Diya>>>"))
 
@@ -102,16 +103,20 @@ if(op==1):
     except:
         pass
 elif(op==2):
- generate("https://us-proxy.org",40) 
+ generate("https://us-proxy.org",80) 
 elif(op==3):
- generate("https://free-proxy-list.net/uk-proxy.html",40)
+ generate("https://free-proxy-list.net/uk-proxy.html",80)
 elif(op==4):
- generate("https://www.sslproxies.org",40)
+ generate("https://www.sslproxies.org",80)
 elif(op==5):
  generate("https://free-proxy-list.net/anonymous-proxy.html",80)
 elif(op==6):
  print " "+Blue+"177.206.186.9:8080   SOCKS4   Brazil   Elite"
  print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
+elif(op==7):
+ print("\033[1;31;40mQuiting Utility...")
+ time.sleep(0.8)
+ sys.exit()
 else:
  print("\033[1;31;40mInvalid input. Quiting...")
  time.sleep(1.5)
