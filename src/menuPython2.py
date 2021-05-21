@@ -10,7 +10,6 @@ print("          \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
 print("          \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
 
 op=int(raw_input("Diya>>>"))
-banner()
 if(op==1):
  generate("https://free-proxy-list.net",number) 
 elif(op==2):
