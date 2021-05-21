@@ -1,6 +1,6 @@
 ### verison 1.4
 
-* `Proxy: added more proxy servers``
+* `Proxy: added more proxy servers`
 * `system: New system on Free Proxy`
 * `menu: changen a menu`
 * `bug: fixed bugs`
