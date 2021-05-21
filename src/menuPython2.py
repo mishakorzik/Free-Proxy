@@ -12,6 +12,7 @@ Reset="\033[0m"
 Red="\033[1;31m"
 Purple="\033[0;35m"
 
+print("          \033[1;32;40m[1] \033[1;36;40mNEW PROXY")
 print("          \033[1;32;40m[2] \033[1;36;40mUS PROXY")
 print("          \033[1;32;40m[3] \033[1;36;40mUK PROXY")
 print("          \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
@@ -21,7 +22,19 @@ print("          \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
 op=int(raw_input("Diya>>>"))
 
 if(op==1):
- generate("https://free-proxy-list.net",number) 
+ proxyDomain = "https://free-proxy-list.net" 
+
+ system = requests.get(proxyDomain)
+ 
+ mranonymous_systemSoup = BeautifulSoup(system.content,'html.parser')
+
+ sosBlackhats = mranonymous_systemSoup.find('table',{"id" : "proxylisttable"})
+ for row in sosBlackhats.find_all('tr'):
+    columns = row.find_all('td')
+    try:
+        print "%s:%s\t%-20s\t%-10s"  % (columns[0].get_text(),columns[1].get_text(),columns[3].get_text(),columns[4].get_text())
+    except:
+        pass
 elif(op==2):
  generate("https://us-proxy.org",40) 
 elif(op==3):
