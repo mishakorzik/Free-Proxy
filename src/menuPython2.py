@@ -96,11 +96,11 @@ if(op==1):
     except:
         pass
 elif(op==2):
- generate("https://us-proxy.org",80) 
+ generate("https://us-proxy.org",40) 
 elif(op==3):
- generate("https://free-proxy-list.net/uk-proxy.html",80)
+ generate("https://free-proxy-list.net/uk-proxy.html",40)
 elif(op==4):
- generate("https://www.sslproxies.org",80)
+ generate("https://www.sslproxies.org",40)
 elif(op==5):
  generate("https://free-proxy-list.net/anonymous-proxy.html",80)
 elif(op==6):
