@@ -12,7 +12,7 @@ Reset="\033[0m"
 Red="\033[1;31m"
 Purple="\033[0;35m"
 
-color1=["\033[1;31;40m","\033[1;32;40m","\033[1;33;40m","\033[1;34;40m","\033[1;35;40m","\033[1;36;40m"]
+color1=["\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m"]
 def color():
  return str(random.choice(color1))
 def generate(url,count):
@@ -159,13 +159,13 @@ if(op==1):
     except:
         pass
 elif(op==2):
- generate("https://us-proxy.org",80) 
+ generate("https://us-proxy.org",120) 
 elif(op==3):
- generate("https://free-proxy-list.net/uk-proxy.html",80)
+ generate("https://free-proxy-list.net/uk-proxy.html",120)
 elif(op==4):
- generate("https://www.sslproxies.org",80)
+ generate("https://www.sslproxies.org",120)
 elif(op==5):
- generate("https://free-proxy-list.net/anonymous-proxy.html",80)
+ generate("https://free-proxy-list.net/anonymous-proxy.html",120)
 elif(op==6):
  socks(120)
  print " "+Blue+"177.206.186.9:8080   SOCKS4   Brazil   Elite"
