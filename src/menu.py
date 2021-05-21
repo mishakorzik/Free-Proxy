@@ -134,13 +134,14 @@ def socks(count):
  except:
   print("\033[1;31;40m%d Proxies can't be generated at this time. Try giving a smaller amount(i.e 1) or try again after some time."%count)
 
-print("     \033[1;32;40m[1] \033[1;36;40mNEW PROXY")
+print("     \033[1;32;40m[1] \033[1;36;40mALL PROXY")
 print("     \033[1;32;40m[2] \033[1;36;40mUS PROXY")
 print("     \033[1;32;40m[3] \033[1;36;40mUK PROXY")
 print("     \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
 print("     \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
 print("     \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
-print("     \033[1;32;40m[7] \033[1;36;40mEXIT UTILITY")
+print("     \033[1;32;40m[7] \033[1;36;40mSOCKS PROXY")
+print("     \033[1;32;40m[8] \033[1;36;40mEXIT UTILITY")
 
 op=int(raw_input("Diya>>>"))
 
@@ -159,18 +160,24 @@ if(op==1):
     except:
         pass
 elif(op==2):
- generate("https://us-proxy.org",120) 
+ generate("https://us-proxy.org",65) 
 elif(op==3):
- generate("https://free-proxy-list.net/uk-proxy.html",120)
+ generate("https://free-proxy-list.net/uk-proxy.html",65)
 elif(op==4):
- generate("https://www.sslproxies.org",120)
+ generate("https://www.sslproxies.org",65)
 elif(op==5):
- generate("https://free-proxy-list.net/anonymous-proxy.html",120)
+ generate("https://free-proxy-list.net/anonymous-proxy.html",65)
 elif(op==6):
- socks(120)
+ socks(85)
  print " "+Blue+"177.206.186.9:8080   SOCKS4   Brazil   Elite"
  print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
 elif(op==7):
+ print("Updating tool. Please wait a moment")
+ os.system("cd")
+ os.system("git clone https://github.com/mishakorzik/AutoUpdateMyTools")
+ os.system("cd AutoUpdateMyTools")
+ os.system("bash Free-Proxy-Updater.sh")
+elif(op==8):
  print("\033[1;31;40mQuiting Utility...")
  time.sleep(0.8)
  sys.exit()
