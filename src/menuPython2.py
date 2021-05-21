@@ -6,7 +6,7 @@ import random
 import sys
 
 os.system("apt install toilet")
-color1=["\033[1;31;40m","\033[1;32;40m","\033[1;33;40m","\033[1;34;40m","\033[1;35;40m","\033[1;36;40m"]
+color1=["\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m"]
 def color():
  return str(random.choice(color1))
 def generate(url,count):
