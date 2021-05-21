@@ -139,7 +139,7 @@ print("     ║ \033[1;32;40m[3] \033[1;36;40mUK PROXY")
 print("     ║ \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
 print("     ║ \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
 print("     ║ \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
-print("     ╙ \033[1;32;40m[7] \033[1;36;40mExit utility")
+print("     ╙ \033[1;32;40m[7] \033[1;36;40mEXIT UTILITY")
 
 op=int(raw_input("Diya>>>"))
 
