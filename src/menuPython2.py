@@ -28,42 +28,42 @@ def generate(url,count):
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    iplist.append(a)
-   j=j+8
+   j=j+4
   j=1
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    portlist.append(a)
-   j=j+8
+   j=j+4
   j=2   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    codelist.append(a)
-   j=j+8   
+   j=j+4   
   j=3   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    countrylist.append(a)
-   j=j+8 
+   j=j+4 
   j=4   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    anonymitylist.append(a)
-   j=j+8
+   j=j+4
   j=5   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    googlelist.append(a)
-   j=j+8  
+   j=j+4  
   j=6   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    httpslist.append(a)
-   j=j+8  
+   j=j+4  
   j=7   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    last_checklist.append(a)
-   j=j+8
+   j=j+4
   for k in range (0,count):
       print(color()+iplist[k]+":"+color()+portlist[k]+"\t"+color()+codelist[k]+"\t"+color()+countrylist[k]+"\t\t"+color()+anonymitylist[k]+color()+"\tGoogle:"+googlelist[k]+color()+"\thttps:"+httpslist[k]+color()+"\tLast checked "+last_checklist[k]+"\n")
  except:
