@@ -57,12 +57,7 @@ def generate(url,count):
    a=str(list1[j].contents[0])
    anonymitylist.append(a)
    j=j+8
-  j=5   
-  while(j<(8*count)):
-   a=str(list1[j].contents[0])
-   googlelist.append(a)
-   j=j+8  
-  j=6   
+  j=5      
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    httpslist.append(a)
