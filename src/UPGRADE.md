@@ -1,3 +1,14 @@
+
+### verison 1.5
+Super upgrade.
+
+* `Proxy: added new proxies servers`
+* `menu: changen new menu`
+* `desing: changed a new desing`
+
+* `Thank you for viewing`
+
+------
 ### verison 1.4
 
 * `Proxy: added more proxy servers`
