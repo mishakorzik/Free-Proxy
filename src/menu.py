@@ -134,14 +134,14 @@ def socks(count):
  except:
   print("\033[1;31;40m%d Proxies can't be generated at this time. Try giving a smaller amount(i.e 1) or try again after some time."%count)
 
-print("     \033[1;32;40m[1] \033[1;36;40mALL PROXY")
-print("     \033[1;32;40m[2] \033[1;36;40mUS PROXY")
-print("     \033[1;32;40m[3] \033[1;36;40mUK PROXY")
-print("     \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
-print("     \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
-print("     \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
-print("     \033[1;32;40m[7] \033[1;36;40mUPDATE UTILITY")
-print("     \033[1;32;40m[8] \033[1;36;40mEXIT UTILITY")
+print("     # \033[1;32;40m[1] \033[1;36;40mALL PROXY")
+print("     # \033[1;32;40m[2] \033[1;36;40mUS PROXY")
+print("     # \033[1;32;40m[3] \033[1;36;40mUK PROXY")
+print("     # \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
+print("     # \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
+print("     # \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
+print("     # \033[1;32;40m[7] \033[1;36;40mUPDATE UTILITY")
+print("     # \033[1;32;40m[8] \033[1;36;40mEXIT UTILITY")
 
 op=int(raw_input("Options: "))
 
