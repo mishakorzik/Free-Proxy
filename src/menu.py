@@ -140,10 +140,10 @@ print("     \033[1;32;40m[3] \033[1;36;40mUK PROXY")
 print("     \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
 print("     \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
 print("     \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
-print("     \033[1;32;40m[7] \033[1;36;40mSOCKS PROXY")
+print("     \033[1;32;40m[7] \033[1;36;40mUPDATE UTILITY")
 print("     \033[1;32;40m[8] \033[1;36;40mEXIT UTILITY")
 
-op=int(raw_input("Diya>>>"))
+op=int(raw_input("Options: "))
 
 if(op==1):
  proxyDomain = "https://free-proxy-list.net" 
@@ -174,7 +174,7 @@ elif(op==6):
 elif(op==7):
  print("Updating tool. Please wait a moment")
  os.system("cd src")
- os.system("ProxyUpdater.sh")
+ os.system("bash ProxyUpdater.sh")
 elif(op==8):
  print("\033[1;31;40mQuiting Utility...")
  time.sleep(0.8)
