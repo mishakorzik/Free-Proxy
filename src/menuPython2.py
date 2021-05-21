@@ -5,6 +5,13 @@ import time
 import random
 import sys
 
+Green="\033[1;33m"
+Blue="\033[1;34m"
+Grey="\033[1;30m"
+Reset="\033[0m"
+Red="\033[1;31m"
+Purple="\033[0;35m"
+
 print " "+Green+"██████╗░██████╗░░█████╗░██╗░░██╗██╗░░░██╗"
 print " "+Green+"██╔══██╗██╔══██╗██╔══██╗╚██╗██╔╝╚██╗░██╔╝"
 print " "+Green+"██████╔╝██████╔╝██║░░██║░╚███╔╝░░╚████╔╝░"
@@ -80,13 +87,6 @@ def generate(url,count):
       print(color()+iplist[k]+":"+color()+portlist[k]+"\t"+color()+codelist[k]+"\t"+color()+countrylist[k]+"\t\t"+color()+anonymitylist[k]+color()+"\tGoogle:"+googlelist[k]+color()+"\thttps:"+httpslist[k]+color()+"\tLast checked "+last_checklist[k]+"\n")
  except:
   print("\033[1;31;40m%d Proxies can't be generated at this time. Try giving a smaller amount(i.e 1) or try again after some time."%count)
-
-Green="\033[1;33m"
-Blue="\033[1;34m"
-Grey="\033[1;30m"
-Reset="\033[0m"
-Red="\033[1;31m"
-Purple="\033[0;35m"
 
 print("          \033[1;32;40m[1] \033[1;36;40mNEW PROXY")
 print("          \033[1;32;40m[2] \033[1;36;40mUS PROXY")
