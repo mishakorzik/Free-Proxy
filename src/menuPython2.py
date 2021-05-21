@@ -5,6 +5,18 @@ import time
 import random
 import sys
 
+print " "+Green+"██████╗░██████╗░░█████╗░██╗░░██╗██╗░░░██╗"
+print " "+Green+"██╔══██╗██╔══██╗██╔══██╗╚██╗██╔╝╚██╗░██╔╝"
+print " "+Green+"██████╔╝██████╔╝██║░░██║░╚███╔╝░░╚████╔╝░"
+print " "+Green+"██╔═══╝░██╔══██╗██║░░██║░██╔██╗░░░╚██╔╝░░"
+print " "+Green+"██║░░░░░██║░░██║╚█████╔╝██╔╝╚██╗░░░██║░░░"
+print " "+Green+"╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░ v1.3"
+print ""
+print " "+Green+"          Developer : mishakorzhik"
+print " "+Green+"          Code      : bash, python"
+print ""
+print " "+Blue+""
+
 os.system("apt install toilet")
 color1=["\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m"]
 def color():
