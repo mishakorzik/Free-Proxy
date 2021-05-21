@@ -9,3 +9,5 @@ read a1
 clear
 sleep 1
 python2 Free-Proxy.py
+sleep 1
+python2 menu.py
