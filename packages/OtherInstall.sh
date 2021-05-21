@@ -1,3 +1,8 @@
+g="\033[1;32m"
+r="\033[1;31m"
+b="\033[1;34m"
+w="\033[0m"
+
 apt-get update
 apt-get upgrade
 apt-get upgraded
@@ -23,13 +28,4 @@ rm -rf IMG_20210510_150717.jpg
 rm -rf IMG_20210510_150700.jpg
 rm -rf IMG_20210510_150436.jpg
 rm -rf IMG_20210510_145354.jpg
-echo ██████╗░░█████╗░███╗░░██╗███████╗
-echo ██╔══██╗██╔══██╗████╗░██║██╔════╝
-echo ██║░░██║██║░░██║██╔██╗██║█████╗░░
-echo ██║░░██║██║░░██║██║╚████║██╔══╝░░
-echo ██████╔╝╚█████╔╝██║░╚███║███████╗
-echo ╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
-echo Developer: mishakorzhik
-echo Created  : 21 05 2021
-echo Run command: bash FreeProxy.sh
 
