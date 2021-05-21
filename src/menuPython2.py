@@ -28,42 +28,42 @@ def generate(url,count):
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    iplist.append(a)
-   j=j+4
+   j=j+8
   j=1
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    portlist.append(a)
-   j=j+4
+   j=j+8
   j=2   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    codelist.append(a)
-   j=j+4   
+   j=j+8   
   j=3   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    countrylist.append(a)
-   j=j+4 
+   j=j+8 
   j=4   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    anonymitylist.append(a)
-   j=j+4
+   j=j+8
   j=5   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    googlelist.append(a)
-   j=j+4  
+   j=j+8  
   j=6   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    httpslist.append(a)
-   j=j+4  
+   j=j+8  
   j=7   
   while(j<(8*count)):
    a=str(list1[j].contents[0])
    last_checklist.append(a)
-   j=j+4
+   j=j+8
   for k in range (0,count):
       print(color()+iplist[k]+":"+color()+portlist[k]+"\t"+color()+codelist[k]+"\t"+color()+countrylist[k]+"\t\t"+color()+anonymitylist[k]+color()+"\tGoogle:"+googlelist[k]+color()+"\thttps:"+httpslist[k]+color()+"\tLast checked "+last_checklist[k]+"\n")
  except:
@@ -100,13 +100,13 @@ if(op==1):
     except:
         pass
 elif(op==2):
- generate("https://us-proxy.org",40) 
+ generate("https://us-proxy.org",80) 
 elif(op==3):
- generate("https://free-proxy-list.net/uk-proxy.html",40)
+ generate("https://free-proxy-list.net/uk-proxy.html",80)
 elif(op==4):
- generate("https://www.sslproxies.org",40)
+ generate("https://www.sslproxies.org",80)
 elif(op==5):
- generate("https://free-proxy-list.net/anonymous-proxy.html",40)
+ generate("https://free-proxy-list.net/anonymous-proxy.html",80)
 elif(op==6):
  print " "+Blue+"177.206.186.9:8080   SOCKS4   Brazil   Elite"
  print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
