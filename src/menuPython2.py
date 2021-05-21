@@ -29,9 +29,7 @@ def generate(url,count):
   codelist=[]
   countrylist=[]
   anonymitylist=[]
-  googlelist=[]
   httpslist=[]
-  last_checklist=[]
   finallist=[]
   j=0
   while(j<(8*count)):
