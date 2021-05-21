@@ -12,17 +12,7 @@ Reset="\033[0m"
 Red="\033[1;31m"
 Purple="\033[0;35m"
 
-print " "+Green+"██████╗░██████╗░░█████╗░██╗░░██╗██╗░░░██╗"
-print " "+Green+"██╔══██╗██╔══██╗██╔══██╗╚██╗██╔╝╚██╗░██╔╝"
-print " "+Green+"██████╔╝██████╔╝██║░░██║░╚███╔╝░░╚████╔╝░"
-print " "+Green+"██╔═══╝░██╔══██╗██║░░██║░██╔██╗░░░╚██╔╝░░"
-print " "+Green+"██║░░░░░██║░░██║╚█████╔╝██╔╝╚██╗░░░██║░░░"
-print " "+Green+"╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░ v1.3"
-print ""
-print " "+Green+"          Developer : mishakorzhik"
-print " "+Green+"          Code      : bash, python"
-print ""
-print " "+Blue+""
+os.system("python2 Logo.py")
 
 os.system("apt install toilet")
 color1=["\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m"]
