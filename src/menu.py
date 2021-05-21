@@ -13,7 +13,10 @@ Red="\033[1;31m"
 Purple="\033[0;35m"
 
 
-def socks(count):
+color1=["\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m"]
+def color():
+ return str(random.choice(color1))
+def generate(url,count):
  try:
   r=requests.get("https://www.socks-proxy.net")
   soup=BeautifulSoup(r.content,'html.parser')
@@ -129,8 +132,8 @@ def generate(url,count):
    a=str(list1[j].contents[0])
    last_checklist.append(a)
    j=j+8
-  for k in range (0,count):
-      print(color()+iplist[k]+":"+color()+portlist[k]+"\t"+color()+codelist[k]+"\t"+color()+countrylist[k]+"\t\t"+color()+anonymitylist[k]+color()+"\tGoogle:"+googlelist[k]+color()+"\thttps:"+httpslist[k]+color()+"\tLast checked "+last_checklist[k]+"\n")
+for k in range (0,count):
+   print(color()+iplist[k]+":"+color()+portlist[k]+"\t"+color()+codelist[k]+"\t"+color()+countrylist[k]+"\t"+color()+versionlist[k]+"\t"+color()+anonymitylist[k]+"\thttps:"+color()+httpslist[k]+"\tLast Checked :"+color()+last_checklist[k]+"\n")
  except:
 
 print("     ╓ \033[1;32;40m[1] \033[1;36;40mNEW PROXY")
