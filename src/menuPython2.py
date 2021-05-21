@@ -5,10 +5,12 @@ import time
 import random
 import sys
 
-number=int(raw_input("\033[1;33;40mEnter the number of proxies you want to generate(Max:40) :"))
-if(number>40):
- print("\033[1;31;40mEnter a number <=40. Quiting...")
- time.sleep(1.5)
+Green="\033[1;33m"
+Blue="\033[1;34m"
+Grey="\033[1;30m"
+Reset="\033[0m"
+Red="\033[1;31m"
+Purple="\033[0;35m"
 
 print("          \033[1;32;40m[2] \033[1;36;40mUS PROXY")
 print("          \033[1;32;40m[3] \033[1;36;40mUK PROXY")
@@ -16,19 +18,17 @@ print("          \033[1;32;40m[4] \033[1;36;40mSSL PROXY")
 print("          \033[1;32;40m[5] \033[1;36;40mANONYMOUS PROXY")
 print("          \033[1;32;40m[6] \033[1;36;40mSOCKS PROXY")
 
-op=int(raw_input("Diya>>>"))
-if(op==1):
- generate("https://free-proxy-list.net",number) 
 elif(op==2):
- generate("https://us-proxy.org",number) 
+ generate("https://us-proxy.org",40) 
 elif(op==3):
- generate("https://free-proxy-list.net/uk-proxy.html",number)
+ generate("https://free-proxy-list.net/uk-proxy.html",40)
 elif(op==4):
- generate("https://www.sslproxies.org",number)
+ generate("https://www.sslproxies.org",40)
 elif(op==5):
- generate("https://free-proxy-list.net/anonymous-proxy.html",number)
+ generate("https://free-proxy-list.net/anonymous-proxy.html",40)
 elif(op==6):
- socks(number)
+ print " "+Blue+"177.206.186.9:8080   SOCKS4   Brazil   Elite"
+ print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
 else:
  print("\033[1;31;40mInvalid input. Quiting...")
  time.sleep(1.5)
