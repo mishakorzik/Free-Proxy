@@ -1,5 +1,12 @@
-number=int(raw_input("\033[1;33;40mEnter the number of proxies you want to generate(Max:50) :"))
-if(number>50):
+import requests
+from bs4 import BeautifulSoup
+import os
+import time
+import random
+import sys
+
+number=int(raw_input("\033[1;33;40mEnter the number of proxies you want to generate(Max:40) :"))
+if(number>40):
  print("\033[1;31;40mEnter a number <=40. Quiting...")
  time.sleep(1.5)
 
