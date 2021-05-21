@@ -173,10 +173,8 @@ elif(op==6):
  print " "+Blue+"51.81.31.62:54860   SOCKS5  Francia    hing anonymous"
 elif(op==7):
  print("Updating tool. Please wait a moment")
- os.system("cd")
- os.system("git clone https://github.com/mishakorzik/AutoUpdateMyTools")
- os.system("cd AutoUpdateMyTools")
- os.system("bash Free-Proxy-Updater.sh")
+ os.system("cd src")
+ os.system("ProxyUpdater.sh")
 elif(op==8):
  print("\033[1;31;40mQuiting Utility...")
  time.sleep(0.8)
