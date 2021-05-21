@@ -131,7 +131,6 @@ def generate(url,count):
   for k in range (0,count):
       print(color()+iplist[k]+":"+color()+portlist[k]+"\t"+color()+codelist[k]+"\t"+color()+countrylist[k]+"\t\t"+color()+anonymitylist[k]+color()+"\tGoogle:"+googlelist[k]+color()+"\thttps:"+httpslist[k]+color()+"\tLast checked "+last_checklist[k]+"\n")
  except:
-  print("\033[1;31;40m%d Proxies can't be generated at this time. Try giving a smaller amount(i.e 1) or try again after some time."%count)
 
 print("     ╓ \033[1;32;40m[1] \033[1;36;40mNEW PROXY")
 print("     ║ \033[1;32;40m[2] \033[1;36;40mUS PROXY")
