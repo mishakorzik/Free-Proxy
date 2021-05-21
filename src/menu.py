@@ -12,8 +12,6 @@ Reset="\033[0m"
 Red="\033[1;31m"
 Purple="\033[0;35m"
 
-os.system("python2 Logo.py")
-
 os.system("apt install toilet")
 color1=["\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m","\033[1;34m"]
 def color():
