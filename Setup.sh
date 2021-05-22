@@ -17,10 +17,12 @@ apt-get install git
 sleep 1
 echo -e $b">"$w" installing modules: "$g"python2"$w
 sleep 1
+apt-get install python
 apt-get install python2
 sleep 1
 echo -e $b">"$w" installing modules: "$g"requests"$w
 sleep 1
+pkg install pip
 pip2 install requests
 sleep 1
 echo -e $b">"$w" installing modules: "$g"bs4"$w
