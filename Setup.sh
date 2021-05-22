@@ -35,8 +35,6 @@ rm -rf IMG_20210510_150717.jpg
 rm -rf IMG_20210510_150700.jpg
 rm -rf IMG_20210510_150436.jpg
 rm -rf IMG_20210510_145354.jpg
-rand1=$( shuf -i 0-${#colors[@]} -n 1 )
-rand2=$( shuf -i 0-${#colors[@]} -n 1 )
 echo ██████╗░░█████╗░███╗░░██╗███████╗
 echo ██╔══██╗██╔══██╗████╗░██║██╔════╝
 echo ██║░░██║██║░░██║██╔██╗██║█████╗░░
@@ -44,5 +42,5 @@ echo ██║░░██║██║░░██║██║╚████║
 echo ██████╔╝╚█████╔╝██║░╚███║███████╗
 echo ╚═════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
 echo Developer: mishakorzhik
-echo Update on: 17 05 2021
+echo Update on: 22 05 2021
 echo Run command: bash FreeProxy.sh
