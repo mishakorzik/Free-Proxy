@@ -26,4 +26,5 @@ cd Free-Proxy
 cd src
 sleep 1
 python2 Free-Proxy.py
+sleep 1
 python2 menu.py
