@@ -11,14 +11,19 @@ echo "┃┃╱╱┃┃┃┃━╋━━┣━━┃┃╰━━┫┃┃┃�
 echo "╰╯╱╱╰╯╰━━┻━━┻━━╯╰━━━┻╯╰┻━┻━━┻╯╱╱╱╰╯╰━━╯╰━━━╯╰━┻╯╰┻╯╰━╯"
 echo "Please press enter to launch..."
 read a1
-echo -e $b">"$w" installing modules: "$g"python2"$w
+echo -e $b">"$w" verify modules: "$g"python2"$w
+pkg install python
 pkg install python2
-echo -e $b">"$w" installing modules: "$g"pip3"$w
+echo -e $b">"$w" verify modules: "$g"pip3"$w
 pkg install pip3
-echo -e $b">"$w" installing modules: "$g"requests"$w
+echo -e $b">"$w" verify modules: "$g"requests"$w
 pip3 install requests
 clear
 clear
+cd 
+cd
+cd Free-Proxy
+cd src
 sleep 1
 python2 Free-Proxy.py
 python2 menu.py
