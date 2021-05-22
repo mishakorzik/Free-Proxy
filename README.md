@@ -45,7 +45,7 @@
 <br>
 <p align="center">
 <img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/IMG_20210520_220708.jpg"/> 
-<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/IMG_20210520_220651.jpg"/>
+<img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/IMG_20210522_110043.jpg"/>
 </p>
 
 ###### By mishakorzhik: Report bug: misakorzik528@gmail.com
