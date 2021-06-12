@@ -17,6 +17,10 @@ echo -e $b">"$w" verify modules: "$g"pip3"$w
 pkg install pip3
 echo -e $b">"$w" verify modules: "$g"requests"$w
 pip3 install requests
+echo -e $b">"$w" verify modules: "$g"lolcat"$w
+pip2 install lolcat
+pip install lolcat
+gem install lolcat
 clear
 clear
 cd 
@@ -24,6 +28,6 @@ cd
 cd Free-Proxy
 cd src
 sleep 1
-python2 Free-Proxy.py
+bash Free-Proxy.sh
 sleep 1
 python2 menu.py
