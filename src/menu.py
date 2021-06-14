@@ -163,7 +163,7 @@ elif(op==2):
 elif(op==3):
  generate("https://free-proxy-list.net/uk-proxy.html",65)
 elif(op==4):
- generate("https://www.sslproxies.org",65)
+ generate("https://www.sslproxies.org",50)
 elif(op==5):
  generate("https://free-proxy-list.net/anonymous-proxy.html",65)
 elif(op==6):
