@@ -44,8 +44,12 @@
 * `bash FreeProxy.sh`
 
 ---
+## Donate
 
-#### command for auto update tool.
+**If you want to donate, click on the button**
+<a href="https://www.donationalerts.com/r/misha_korzhik"><img title="Donate" src="https://img.shields.io/badge/Donate-AllHackingTools-yellow?style=for-the-badge&logo=github"></a>
+
+#### command for update tool.
 
 * `bash Update.sh`
 
