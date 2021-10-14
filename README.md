@@ -67,6 +67,6 @@
 <img width="49.0%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/IMG_20210522_110043.jpg"/>
 </p>
 
-###### By mishakorzhik: Report bug: misakorzik528@gmail.com
+###### By mishakorzhik: Report bug: miguardzecurity@gmail.com
 
 
