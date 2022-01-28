@@ -27,23 +27,23 @@ if(op==1):
  print(system)
 elif(op==2):
  proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=US"
- system = requests.get(proxyDomain)
+ system = requests.get(proxyDomain).text
  print(system)
 elif(op==3):
  proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=RU"
- system = requests.get(proxyDomain)
+ system = requests.get(proxyDomain).text
  print(system)
 elif(op==4):
  proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=all&ssl=all"
- system = requests.get(proxyDomain)
+ system = requests.get(proxyDomain).text
  print(system)
 elif(op==5):
  proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=750&country=all"
- system = requests.get(proxyDomain)
+ system = requests.get(proxyDomain).text
  print(system)
 elif(op==6):
  proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=750&country=all"
- system = requests.get(proxyDomain)
+ system = requests.get(proxyDomain).text
  print(system)
 elif(op==7):
  print("Updating tool. Please wait a moment")
