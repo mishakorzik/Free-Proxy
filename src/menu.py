@@ -25,6 +25,10 @@ print("  # \033[1;34m[ 12 ] >> \033[1;36;40mMexica")
 print("  # \033[1;34m[ 13 ] >> \033[1;36;40mKazakhstan")
 print("  # \033[1;34m[ 14 ] >> \033[1;36;40mIran")
 print("  # \033[1;34m[ 15 ] >> \033[1;36;40mEgypt")
+print("  # \033[1;34m[ 16 ] >> \033[1;36;40mGonhonk")
+print("  # \033[1;34m[ 17 ] >> \033[1;36;40mGermany")
+print("  # \033[1;34m[ 18 ] >> \033[1;36;40mVietman")
+print("  # \033[1;34m[ 19 ] >> \033[1;36;40mHungary")
 print('')
 print("  # \033[1;34m[ 20 ] >> \033[1;36;40mSSL PROXY")
 print("  # \033[1;34m[ 21 ] >> \033[1;36;40mSOCKS4 PROXY")
@@ -92,6 +96,22 @@ elif(op==14):
  print(system)
 elif(op==15):
  proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=EG"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==16):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=2250&country=HK"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==17):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=DE"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==18):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=VN"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==19):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=HU"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==20):
