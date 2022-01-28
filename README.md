@@ -1,7 +1,7 @@
 <img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/Free-Proxy/IMG-1a140ab0d5016e30a0647e85ae27dbf4-V.jpg"/>
 
 <p align="center">
-<a href="https://github.com/mishakorzik/Free-Proxy"><img title="Version" src="https://img.shields.io/badge/Version-1.5.2-yellow?style=for-the-badge&logo="></a>
+<a href="https://github.com/mishakorzik/Free-Proxy"><img title="Version" src="https://img.shields.io/badge/Version-1.6.3-yellow?style=for-the-badge&logo="></a>
 <a href="https://github.com/mishakorzik/Free-Proxy/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-GNU-brightgreen?style=for-the-badge&logo=gnu"></a>
 <a href=""><img title="Python" src="https://img.shields.io/badge/Python-3.7-red?style=for-the-badge&logo=python"></a>
 <a href="https://github.com/mishakorzik"><img title="Report" src="https://img.shields.io/badge/Copyring-2021-red?style=for-the-badge&logo=github"></a>
