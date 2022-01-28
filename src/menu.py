@@ -10,14 +10,16 @@ Reset="\033[0m"
 Red="\033[1;31m"
 Purple="\033[0;35m"
 
-print("  # \033[1;34m[ 1 ] >> \033[1;36;40mALL PROXY")
-print("  # \033[1;34m[ 2 ] >> \033[1;36;40mUS PROXY")
-print("  # \033[1;34m[ 3 ] >> \033[1;36;40mRU PROXY")
-print("  # \033[1;34m[ 4 ] >> \033[1;36;40mSSL PROXY")
-print("  # \033[1;34m[ 5 ] >> \033[1;36;40mSOCKS4 PROXY")
-print("  # \033[1;34m[ 6 ] >> \033[1;36;40mSOCKS5 PROXY")
-print("  # \033[1;34m[ 7 ] >> \033[1;36;40mUPDATE UTILITY")
-print("  # \033[1;34m[ 8 ] >> \033[1;36;40mEXIT UTILITY")
+print("  # \033[1;34m[ 01 ] >> \033[1;36;40mALL PROXY")
+print("  # \033[1;34m[ 02 ] >> \033[1;36;40mUS PROXY")
+print("  # \033[1;34m[ 03 ] >> \033[1;36;40mRU PROXY")
+print("  # \033[1;34m[ 04 ] >> \033[1;36;40mUA PROXY")
+print("  # \033[1;34m[ 05 ] >> \033[1;36;40mIN PROXY")
+print("  # \033[1;34m[ 06 ] >> \033[1;36;40mSSL PROXY")
+print("  # \033[1;34m[ 07 ] >> \033[1;36;40mSOCKS4 PROXY")
+print("  # \033[1;34m[ 08 ] >> \033[1;36;40mSOCKS5 PROXY")
+print("  # \033[1;34m[ 09 ] >> \033[1;36;40mUPDATE UTILITY")
+print("  # \033[1;34m[ 10 ] >> \033[1;36;40mEXIT UTILITY")
 
 op=int(raw_input("Options: "))
 
@@ -26,7 +28,7 @@ if(op==1):
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==2):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=US"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=US"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==3):
@@ -34,22 +36,30 @@ elif(op==3):
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==4):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=all&ssl=all"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=UA"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==5):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=750&country=all"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=IN"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==6):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=750&country=all"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=all&ssl=all"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==7):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=750&country=all"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==8):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=750&country=all"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==9):
  print("Updating tool. Please wait a moment")
  os.system("cd src")
  os.system("bash ProxyUpdater.sh")
-elif(op==8):
+elif(op==10):
  print("\033[1;31;40mQuiting Utility...")
  time.sleep(0.8)
  sys.exit()
