@@ -15,7 +15,7 @@ print("  # \033[1;34m[ 02 ] >> \033[1;36;40mUS PROXY")
 print("  # \033[1;34m[ 03 ] >> \033[1;36;40mRU PROXY")
 print("  # \033[1;34m[ 04 ] >> \033[1;36;40mUA PROXY")
 print("  # \033[1;34m[ 05 ] >> \033[1;36;40mIN PROXY")
-print("  # \033[1;34m[ 06 ] >> \033[1;36;40mEU PROXY")
+print("  # \033[1;34m[ 06 ] >> \033[1;36;40mUK PROXY")
 print("  # \033[1;34m[ 07 ] >> \033[1;36;40mSSL PROXY")
 print("  # \033[1;34m[ 08 ] >> \033[1;36;40mSOCKS4 PROXY")
 print("  # \033[1;34m[ 09 ] >> \033[1;36;40mSOCKS5 PROXY")
@@ -45,7 +45,7 @@ elif(op==5):
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==6):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=EU"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=UK"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==7):
