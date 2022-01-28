@@ -19,9 +19,6 @@ echo -e $b">"$w" installing modules: "$g"requests"$w
 sleep 1
 pip2 install requests
 sleep 1
-echo -e $b">"$w" installing modules: "$g"bs4"$w
-sleep 1
-pip2 install bs4
 cd
 cd Free-Proxy 
 rm -rf IMG_20210510_150717.jpg
