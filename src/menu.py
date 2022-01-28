@@ -11,22 +11,26 @@ Red="\033[1;31m"
 Purple="\033[0;35m"
 
 print("  # \033[1;34m[ 01 ] >> \033[1;36;40mALL PROXY")
-print("  # \033[1;34m[ 02 ] >> \033[1;36;40mAmerica PROXY")
-print("  # \033[1;34m[ 03 ] >> \033[1;36;40mRussia PROXY")
-print("  # \033[1;34m[ 04 ] >> \033[1;36;40mUkraine PROXY")
-print("  # \033[1;34m[ 05 ] >> \033[1;36;40mIndia PROXY")
-print("  # \033[1;34m[ 06 ] >> \033[1;36;40mItalia PROXY")
-print("  # \033[1;34m[ 07 ] >> \033[1;36;40mCanada PROXY")
-print("  # \033[1;34m[ 08 ] >> \033[1;36;40mFrancia PROXY")
-print("  # \033[1;34m[ 09 ] >> \033[1;36;40mThailand PROXY")
-print("  # \033[1;34m[ 10 ] >> \033[1;36;40mPoland PROXY")
-print("  # \033[1;34m[ 11 ] >> \033[1;36;40mNiderland PROXY")
-print("  # \033[1;34m[ 12 ] >> \033[1;36;40mMexica PROXY")
-print("  # \033[1;34m[ 13 ] >> \033[1;36;40mSSL PROXY")
-print("  # \033[1;34m[ 14 ] >> \033[1;36;40mSOCKS4 PROXY")
-print("  # \033[1;34m[ 15 ] >> \033[1;36;40mSOCKS5 PROXY")
-print("  # \033[1;34m[ 16 ] >> \033[1;36;40mUPDATE UTILITY")
-print("  # \033[1;34m[ 17 ] >> \033[1;36;40mEXIT UTILITY")
+print("  # \033[1;34m[ 02 ] >> \033[1;36;40mAmerica  - Америка   - PROXY")
+print("  # \033[1;34m[ 03 ] >> \033[1;36;40mRussia   - Россия    - PROXY")
+print("  # \033[1;34m[ 04 ] >> \033[1;36;40mUkraine  - Украина   - PROXY")
+print("  # \033[1;34m[ 05 ] >> \033[1;36;40mIndia   - Индия     - PROXY")
+print("  # \033[1;34m[ 06 ] >> \033[1;36;40mItalia  - Италия    - PROXY")
+print("  # \033[1;34m[ 07 ] >> \033[1;36;40mCanada  - Канада    - PROXY")
+print("  # \033[1;34m[ 08 ] >> \033[1;36;40mFrancia  - Франция    - PROXY")
+print("  # \033[1;34m[ 09 ] >> \033[1;36;40mThailand  - Тайланд    - PROXY")
+print("  # \033[1;34m[ 10 ] >> \033[1;36;40mPoland    - Польща     - PROXY")
+print("  # \033[1;34m[ 11 ] >> \033[1;36;40mNiderland - Нидерланды - PROXY")
+print("  # \033[1;34m[ 12 ] >> \033[1;36;40mMexica     - Мексика    - PROXY")
+print("  # \033[1;34m[ 13 ] >> \033[1;36;40mKazakhstan - Казахстан  - PROXY")
+print("  # \033[1;34m[ 14 ] >> \033[1;36;40mIran      - Иран       - PROXY")
+print("  # \033[1;34m[ 15 ] >> \033[1;36;40mEgypt    - Египет     - PROXY")
+print('')
+print("  # \033[1;34m[ 16 ] >> \033[1;36;40mSSL PROXY")
+print("  # \033[1;34m[ 17 ] >> \033[1;36;40mSOCKS4 PROXY")
+print("  # \033[1;34m[ 18 ] >> \033[1;36;40mSOCKS5 PROXY")
+print("  # \033[1;34m[ 19 ] >> \033[1;36;40mUPDATE UTILITY")
+print("  # \033[1;34m[ 20 ] >> \033[1;36;40mEXIT UTILITY")
 
 op=int(raw_input("Options: "))
 
@@ -79,22 +83,34 @@ elif(op==12):
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==13):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=500&country=all&ssl=all"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=KZ"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==14):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=750&country=all"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=IR"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==15):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=750&country=all"
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=EG"
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==16):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=500&country=all&ssl=all"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==17):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=750&country=all"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==18):
+ proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=750&country=all"
+ system = requests.get(proxyDomain).text
+ print(system)
+elif(op==19):
  print("Updating tool. Please wait a moment")
  os.system("cd src")
  os.system("bash ProxyUpdater.sh")
-elif(op==17):
+elif(op==20):
  print("\033[1;31;40mQuiting Utility...")
  time.sleep(0.8)
  sys.exit()
