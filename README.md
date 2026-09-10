@@ -1,4 +1,4 @@
-<img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/Free-Proxy/IMG-1a140ab0d5016e30a0647e85ae27dbf4-V.jpg"/>
+<img width="99.9%" src="https://raw.githubusercontent.com/mishakorzik/Free-Proxy/refs/heads/main/Logo.jpg"/>
 
 <p align="center">
 <a href="https://github.com/mishakorzik/Free-Proxy"><img title="Version" src="https://img.shields.io/badge/Version-1.6.3-yellow?style=for-the-badge&logo="></a>
